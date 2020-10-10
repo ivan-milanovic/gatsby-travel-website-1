@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const Destinations = () => (
     <Layout>
         <SEO title="Destinations" />
-        <h1>Destinations</h1>
+        <h1 className="destinations">Destinations</h1>
     </Layout>
 )
 

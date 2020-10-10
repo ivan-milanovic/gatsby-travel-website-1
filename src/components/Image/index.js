@@ -18,7 +18,7 @@ const ImageGallery = () => {
       node {
         base
         childImageSharp {
-          fluid {
+          fluid(maxHeight: 600, maxWidth:600) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -41,3 +41,4 @@ const ImageGallery = () => {
 }
 
 export default ImageGallery
+
